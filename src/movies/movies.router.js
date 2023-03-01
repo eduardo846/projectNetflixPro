@@ -8,4 +8,3 @@ router.route('/')
     .post(upload.single('movieVideo') ,movieServices.postMovie)
 
 module.exports = router
-
