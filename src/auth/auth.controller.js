@@ -18,7 +18,6 @@ const checkUserCredentials = async(email, password) => {
     }
 }
 
-//? Las credenciales son exitosas -> User
-//! Las credenciales sean fallidas -> false
+
 
 module.exports = checkUserCredentials
